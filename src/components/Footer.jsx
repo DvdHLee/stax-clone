@@ -43,7 +43,7 @@ function Footer() {
             <VsMail class="w-[40px] h-[40px] bg-[#D1D1D1] text-[#151515] p-1 rounded-[50%] cursor-not-allowed"/>
             <BiLogosLinkedin class="w-[40px] h-[40px] bg-[#D1D1D1] text-[#151515] p-1 rounded-[50%] cursor-not-allowed"/>
             <AiFillYoutube class="w-[40px] h-[40px] bg-[#D1D1D1] text-[#151515] p-1 rounded-[50%] cursor-not-allowed"/>
-            <div class="w-[250px]">Copyright © 2019-2024 Stax.ai, Inc. All rights reserved.</div>
+            <div class="w-[250px] opacity-[0.5] font-extralight">Copyright © 2019-2024 Stax.ai, Inc. All rights reserved.</div>
           </div>
         </div>
       </div>
