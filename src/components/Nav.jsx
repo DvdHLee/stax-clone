@@ -5,16 +5,16 @@ import { VsChevronDown } from "solid-icons/vs";
 function Nav() {
   return (
     <>
-      <nav class="flex justify-center w-full fixed bg-[#151515] relative">
+      <nav class="flex justify-center w-full fixed bg-[#151515] z-50">
         <div class="max-w-[1600px] w-full flex justify-between items-center text-white font-light m-3">
-          <div class="flex justify-center items-center space-x-8 ">
+          <div class="justify-center items-center space-x-8 flex">
             <A
               href="/#"
               class="hover:opacity-[0.8] transition-all duration-200"
             >
               <img src={logo} alt="logo" class="h-[45px]" />
             </A>
-            <div class="nav__item relative bg-[#151515]">
+            <div class="nav__item relative bg-[#151515] hidden md:flex">
               <div
                 class="absolute text-white w-[160px] h-fit rounded-xl top-[100%] left-[50%] translate-x-[-50%]
                 translate-y-[-20px] opacity-0 text-black space-y-2 p-3 pt-6 nav__drop flex-col transition-all duration-300 invisible bg-[#151515]"
@@ -37,7 +37,7 @@ function Nav() {
                 <VsChevronDown class="nav__chevron transition-all duration-300" />
               </A>
             </div>
-            <div class="nav__item relative bg-[#151515]">
+            <div class="nav__item relative bg-[#151515] hidden md:flex">
               <div
                 class="absolute text-white w-[160px] h-fit rounded-xl top-[100%] left-[50%] translate-x-[-50%] 
               translate-y-[-20px] opacity-0 text-black space-y-2 p-3 pt-6 nav__drop flex-col transition-all duration-300 invisible bg-[#151515]"
@@ -56,7 +56,7 @@ function Nav() {
               </A>
             </div>
           </div>
-          <div class="space-x-8">
+          <div class="space-x-8 hidden md:flex">
             <button class="hover:text-[#00C1EF]  cursor-not-allowed">
               LOG IN
             </button>

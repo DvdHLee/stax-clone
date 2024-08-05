@@ -21,6 +21,7 @@
     "@solidjs/router": "^0.14.1",
     "solid-icons": "^1.1.0",
     "solid-js": "^1.8.11",
-    "solid-slider": "^1.3.17"
+    "solid-slider": "^1.3.17",
+    "tailwindcss-animation-delay": "^2.0.1"
   }
 }

@@ -84,3 +84,49 @@ body {
 .stack {
   transform: rotateX(60deg);
 }
+
+/* Scroll-based Animations */
+
+.today {
+  transform-style: preserve-3d;
+  animation: rotate-in linear;
+  animation-timeline: view();
+}
+
+.move-up {
+  animation: move-up 300ms linear;
+}
+
+.fade-in {
+  animation: fade-in 600ms linear;
+}
+
+@keyframes rotate-in {
+  0% {
+    transform: perspective(1500px) rotateX(30deg);
+  }
+  30% {
+    transform: perspective(1500px) rotateX(0deg);
+  }
+  100% {
+    transform: perspective(1500px) rotateX(0deg);
+  }
+}
+
+@keyframes move-up {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

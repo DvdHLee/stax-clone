@@ -34,16 +34,18 @@ function Footer() {
             <div class="opacity-[0.5] cursor-not-allowed hover:text-[#00C1EF]">E-BOOKS</div>
           </div>
         </div>
-        <div class="px-5 flex justify-between w-full items-center">
+        <div class="px-5 flex justify-between w-full items-center flex-col md:flex-row">
           <div class="space-x-4 text-white flex">
             <div class="cursor-not-allowed hover:text-[#00C1EF]">Terms of Service</div>
             <div class="cursor-not-allowed hover:text-[#00C1EF]">Privacy Policy</div>
           </div>
-          <div class="text-white flex space-x-5 items-center">
-            <VsMail class="w-[40px] h-[40px] bg-[#D1D1D1] text-[#151515] p-1 rounded-[50%] cursor-not-allowed"/>
-            <BiLogosLinkedin class="w-[40px] h-[40px] bg-[#D1D1D1] text-[#151515] p-1 rounded-[50%] cursor-not-allowed"/>
-            <AiFillYoutube class="w-[40px] h-[40px] bg-[#D1D1D1] text-[#151515] p-1 rounded-[50%] cursor-not-allowed"/>
-            <div class="w-[250px] opacity-[0.5] font-extralight">Copyright © 2019-2024 Stax.ai, Inc. All rights reserved.</div>
+          <div class="text-white items-center flex flex-col sm:flex-row">
+            <div class="flex space-x-5 my-[20px]">
+              <VsMail class="w-[40px] h-[40px] bg-[#D1D1D1] text-[#151515] p-1 rounded-[50%] cursor-not-allowed"/>
+              <BiLogosLinkedin class="w-[40px] h-[40px] bg-[#D1D1D1] text-[#151515] p-1 rounded-[50%] cursor-not-allowed"/>
+              <AiFillYoutube class="w-[40px] h-[40px] bg-[#D1D1D1] text-[#151515] p-1 rounded-[50%] cursor-not-allowed"/>
+            </div>
+            <div class="w-[250px] opacity-[0.5] font-extralight sm:ml-[20px]">Copyright © 2019-2024 Stax.ai, Inc. All rights reserved.</div>
           </div>
         </div>
       </div>
