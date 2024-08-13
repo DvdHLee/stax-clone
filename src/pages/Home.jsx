@@ -84,9 +84,9 @@ function Home() {
     <div class="min-h-screen flex flex-col items-center w-full">
       <Nav />
       <div class="grow text-white w-full max-w-[1600px]">
-        <section id="landing" class="h-screen min-h-fit justify-center flex px-[20px] sm:px-[100px] flex-col">
+        <section id="landing" class="min-h-screen justify-center flex px-[20px] sm:px-[100px] flex-col">
           <div class="2xl:text-[140px] xl:text-[120px] 2xl:text-[140px] lg:text-[100px] md:text-[80px] sm:text-[60px] text-[40px] font-bold width-[90%] 
-          2xl:leading-[140px] xl:leading-[120px] lg:leading-[100px] md:leading-[80px] sm:leading-[60px] leading-[40px]
+          2xl:leading-[140px] xl:leading-[120px] lg:leading-[100px] md:leading-[80px] sm:leading-[60px] leading-[40px] mt-[100px]
           flex justify-left animate-fadeinup">
             <div class="w-fit">
               TAILORED
